@@ -1,0 +1,25 @@
+ class Escapecharacter 
+ {
+    public static void main(String[] args)
+    {
+
+         //Tab Space 
+         String str = "Andrew\tGarfield";
+         System.out.println(str); 
+         //it  New Line
+         String str1 = "the best way          \ntocommunicate \nan idea \nis  to act it out";
+         System.out.println(str1); 
+         //backslash 
+         String str2 = "And\\Or";
+         System.out.println(str2); 
+         //it  Carriage
+         String str3 = "Carriage\rReturn";
+         System.out.println(str3);
+          //it  single quote 
+         String str4 = "Wall Street\'s";  System.out.println(str4); 
+         //it prints double quote //String str5 = "New\'Twilight'Line";
+         String str5="JavaTpoint";
+         System.out.println(str5);
+    }
+    
+}
